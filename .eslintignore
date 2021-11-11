@@ -1,0 +1,6 @@
+coverage
+test
+*.log
+*.json
+appveyor.yml
+README.md

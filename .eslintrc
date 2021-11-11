@@ -1,0 +1,27 @@
+{
+  "extends": "eslint-config-egg",
+   "rules": {
+    "indent": "off",
+    "no-console": "warn"
+  },
+  "parser": "babel-eslint",
+  "globals": {
+    "program": true,
+    "navigator": true,
+    "document": true,
+    "dayjs": true,
+    "TaskHook": true,
+    "Page": true,
+    "log4js": true,
+    "TaskHookEvent": "readonly",
+    "localStorage": true
+  },
+  "overrides": [
+    {
+      "files": [ "app/**.js" ],
+      "rules": {
+        "quotes": [ 2, "single" ]
+      }
+    }
+  ]
+}
